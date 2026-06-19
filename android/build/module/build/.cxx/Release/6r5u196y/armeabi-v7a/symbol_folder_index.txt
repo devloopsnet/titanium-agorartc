@@ -1,0 +1,1 @@
+/Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/build/intermediates/cxx/Release/6r5u196y/obj/local/armeabi-v7a

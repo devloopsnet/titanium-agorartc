@@ -1,0 +1,5 @@
+
+dependencies {
+	// Agora full RTC SDK (audio + video). Keep in lockstep with the iOS podspec version.
+	implementation 'io.agora.rtc:full-sdk:4.6.2'
+}

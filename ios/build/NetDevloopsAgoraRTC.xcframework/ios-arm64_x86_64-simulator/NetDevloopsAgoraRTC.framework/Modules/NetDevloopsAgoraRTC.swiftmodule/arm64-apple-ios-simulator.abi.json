@@ -1,0 +1,59 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "NetDevloopsAgoraRTC",
+    "printedName": "NetDevloopsAgoraRTC",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NetDevloopsAgoraRTC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TitaniumKit",
+        "printedName": "TitaniumKit",
+        "declKind": "Import",
+        "moduleName": "NetDevloopsAgoraRTC"
+      },
+      {
+        "kind": "Import",
+        "name": "AgoraRtcKit",
+        "printedName": "AgoraRtcKit",
+        "declKind": "Import",
+        "moduleName": "NetDevloopsAgoraRTC"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NetDevloopsAgoraRTC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TitaniumKit",
+        "printedName": "TitaniumKit",
+        "declKind": "Import",
+        "moduleName": "NetDevloopsAgoraRTC"
+      },
+      {
+        "kind": "Import",
+        "name": "AgoraRtcKit",
+        "printedName": "AgoraRtcKit",
+        "declKind": "Import",
+        "moduleName": "NetDevloopsAgoraRTC"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

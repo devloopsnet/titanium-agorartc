@@ -1,0 +1,10 @@
+framework module NetDevloopsAgoraRTC {
+  umbrella header "NetDevloopsAgoraRTC.h"
+  export *
+
+  module * { export * }
+}
+
+module NetDevloopsAgoraRTC.Swift {
+  header "NetDevloopsAgoraRTC-Swift.h"
+}

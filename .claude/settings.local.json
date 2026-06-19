@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:titaniumsdk.com)",
+      "WebFetch(domain:docs.agora.io)",
+      "WebFetch(domain:central.sonatype.com)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "Bash(ti config *)",
+      "Bash(ti sdk *)",
+      "Read(//Users/AbdullahFaqeir/Library/Titanium/mobilesdk/osx/13.2.0.GA/iphone/cli/**)",
+      "Bash(git ls-remote *)",
+      "Bash(node ios/inject-spm.mjs)",
+      "Bash(awk '{print $2}')",
+      "Bash(curl -fsSL https://raw.githubusercontent.com/AgoraIO/AgoraRtcEngine_iOS/4.6.3/Package.swift)",
+      "Bash(curl -fsSL \"https://repo1.maven.org/maven2/io/agora/rtc/full-sdk/4.6.2/\" -o /dev/null -w \"HTTP %{http_code}\\\\n\")"
+    ]
+  }
+}

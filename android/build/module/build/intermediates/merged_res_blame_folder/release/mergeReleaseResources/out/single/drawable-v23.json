@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "net.devloops.AgoraRTC.module-release-49:/drawable-v23/abc_control_background_material.xml",
+        "source": "net.devloops.AgoraRTC.module-appcompat-1.7.0-39:/drawable-v23/abc_control_background_material.xml"
+    },
+    {
+        "merged": "net.devloops.AgoraRTC.module-release-49:/drawable-v23/m3_tabs_background.xml",
+        "source": "net.devloops.AgoraRTC.module-material-1.12.0-25:/drawable-v23/m3_tabs_background.xml"
+    },
+    {
+        "merged": "net.devloops.AgoraRTC.module-release-49:/drawable-v23/m3_tabs_transparent_background.xml",
+        "source": "net.devloops.AgoraRTC.module-material-1.12.0-25:/drawable-v23/m3_tabs_transparent_background.xml"
+    },
+    {
+        "merged": "net.devloops.AgoraRTC.module-release-49:/drawable-v23/m3_selection_control_ripple.xml",
+        "source": "net.devloops.AgoraRTC.module-material-1.12.0-25:/drawable-v23/m3_selection_control_ripple.xml"
+    },
+    {
+        "merged": "net.devloops.AgoraRTC.module-release-49:/drawable-v23/m3_radiobutton_ripple.xml",
+        "source": "net.devloops.AgoraRTC.module-material-1.12.0-25:/drawable-v23/m3_radiobutton_ripple.xml"
+    },
+    {
+        "merged": "net.devloops.AgoraRTC.module-release-49:/drawable-v23/titanium_splash_icon_background.xml",
+        "source": "net.devloops.AgoraRTC.module-titanium-13.2.0-30:/drawable-v23/titanium_splash_icon_background.xml"
+    },
+    {
+        "merged": "net.devloops.AgoraRTC.module-release-49:/drawable-v23/mtrl_popupmenu_background_overlay.xml",
+        "source": "net.devloops.AgoraRTC.module-material-1.12.0-25:/drawable-v23/mtrl_popupmenu_background_overlay.xml"
+    }
+]

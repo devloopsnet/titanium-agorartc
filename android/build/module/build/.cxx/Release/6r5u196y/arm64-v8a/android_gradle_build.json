@@ -1,0 +1,70 @@
+{
+  "buildFiles": [
+    "/Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/src/main/jni/Android.mk"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Applications/adt-bundle-mac/sdk/ndk/28.1.13356709/ndk-build",
+      "NDK_PROJECT_PATH\u003dnull",
+      "APP_BUILD_SCRIPT\u003d/Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/src/main/jni/Android.mk",
+      "APP_ABI\u003darm64-v8a",
+      "NDK_ALL_ABIS\u003darm64-v8a",
+      "NDK_DEBUG\u003d0",
+      "APP_PLATFORM\u003dandroid-24",
+      "NDK_OUT\u003d/Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/build/intermediates/cxx/Release/6r5u196y/obj",
+      "NDK_LIBS_OUT\u003d/Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/build/intermediates/cxx/Release/6r5u196y/lib",
+      "APP_CPPFLAGS+\u003d-std\u003dc++14",
+      "APP_STL:\u003dc++_shared",
+      "--output-sync\u003dnone",
+      "APP_LD\u003ddeprecated",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Applications/adt-bundle-mac/sdk/ndk/28.1.13356709/ndk-build",
+    "NDK_PROJECT_PATH\u003dnull",
+    "APP_BUILD_SCRIPT\u003d/Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/src/main/jni/Android.mk",
+    "APP_ABI\u003darm64-v8a",
+    "NDK_ALL_ABIS\u003darm64-v8a",
+    "NDK_DEBUG\u003d0",
+    "APP_PLATFORM\u003dandroid-24",
+    "NDK_OUT\u003d/Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/build/intermediates/cxx/Release/6r5u196y/obj",
+    "NDK_LIBS_OUT\u003d/Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/build/intermediates/cxx/Release/6r5u196y/lib",
+    "APP_CPPFLAGS+\u003d-std\u003dc++14",
+    "APP_STL:\u003dc++_shared",
+    "-j10",
+    "--output-sync\u003dnone",
+    "APP_LD\u003ddeprecated",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "net.devloops.AgoraRTC-release-arm64-v8a": {
+      "buildCommandComponents": [
+        "/Applications/adt-bundle-mac/sdk/ndk/28.1.13356709/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/src/main/jni/Android.mk",
+        "APP_ABI\u003darm64-v8a",
+        "NDK_ALL_ABIS\u003darm64-v8a",
+        "NDK_DEBUG\u003d0",
+        "APP_PLATFORM\u003dandroid-24",
+        "NDK_OUT\u003d/Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/build/intermediates/cxx/Release/6r5u196y/obj",
+        "NDK_LIBS_OUT\u003d/Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/build/intermediates/cxx/Release/6r5u196y/lib",
+        "APP_CPPFLAGS+\u003d-std\u003dc++14",
+        "APP_STL:\u003dc++_shared",
+        "-j10",
+        "--output-sync\u003dnone",
+        "APP_LD\u003ddeprecated",
+        "/Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/build/intermediates/cxx/Release/6r5u196y/obj/local/arm64-v8a/libnet.devloops.AgoraRTC.so"
+      ],
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "net.devloops.AgoraRTC",
+      "output": "/Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/build/intermediates/cxx/Release/6r5u196y/obj/local/arm64-v8a/libnet.devloops.AgoraRTC.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-arm64-v8a": {}
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": []
+}

@@ -1,0 +1,1 @@
+{"exports":[],"spm":{"version":1,"dependencies":[{"remotePackageReference":"AgoraRtcEngine_iOS","repositoryURL":"https://github.com/AgoraIO/AgoraRtcEngine_iOS","requirementKind":"upToNextMinorVersion","requirementMinimumVersion":"4.6.2","linkage":"embedded","products":[{"productName":"RtcBasic","frameworkName":"AgoraRtcKit","linkage":"embedded"}]}]}}

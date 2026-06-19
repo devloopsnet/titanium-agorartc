@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "net.devloops.AgoraRTC.module-release-49:/xml/titanium_ui_vertical_nested_scrollview.xml",
+        "source": "net.devloops.AgoraRTC.module-titanium-13.2.0-30:/xml/titanium_ui_vertical_nested_scrollview.xml"
+    },
+    {
+        "merged": "net.devloops.AgoraRTC.module-release-49:/xml/titanium_ui_horizontal_nested_scrollview.xml",
+        "source": "net.devloops.AgoraRTC.module-titanium-13.2.0-30:/xml/titanium_ui_horizontal_nested_scrollview.xml"
+    }
+]

@@ -1,0 +1,14 @@
+Android NDK: WARNING:/Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/src/main/jni/Android.mk:net.devloops.AgoraRTC: non-system libraries in linker flags: -lkroll-v8    
+Android NDK:     This is likely to result in incorrect builds. Try using LOCAL_STATIC_LIBRARIES    
+Android NDK:     or LOCAL_SHARED_LIBRARIES instead to list the library dependencies of the    
+Android NDK:     current module    
+rm -f /Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/build/intermediates/cxx/Release/6r5u196y/lib/arm64-v8a/*
+mkdir -p /Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/build/intermediates/cxx/Release/6r5u196y/lib/arm64-v8a
+echo [arm64-v8a] "Install "/Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/build/intermediates/cxx/Release/6r5u196y/lib/arm64-v8a/libc++_shared.so"":
+install -p /Applications/adt-bundle-mac/sdk/ndk/28.1.13356709/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so /Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/build/intermediates/cxx/Release/6r5u196y/lib/arm64-v8a/libc++_shared.so
+mkdir -p /Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/build/intermediates/cxx/Release/6r5u196y/obj/local/arm64-v8a
+echo [arm64-v8a] "SharedLibrary  ": "libnet.devloops.AgoraRTC.so"
+/Applications/adt-bundle-mac/sdk/ndk/28.1.13356709/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -Wl,-soname,libnet.devloops.AgoraRTC.so -shared -latomic -target aarch64-none-linux-android24 -no-canonical-prefixes  -Wl,--gc-sections  -Wl,--build-id=sha1 -Wl,--no-rosegment  -Wl,--no-undefined -Wl,--fatal-warnings -Wl,--no-undefined-version -L/usr/lib -ldl -llog -L/Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/build/intermediates/cxx/Release/6r5u196y/obj/local/arm64-v8a "-L/Users/AbdullahFaqeir/Library/Titanium/mobilesdk/osx/13.2.0.GA/android/native/libs/arm64-v8a" -lkroll-v8 -lc -lm -o /Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/build/intermediates/cxx/Release/6r5u196y/obj/local/arm64-v8a/libnet.devloops.AgoraRTC.so
+echo [arm64-v8a] "Install        ": "libnet.devloops.AgoraRTC.so => /Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/build/intermediates/cxx/Release/6r5u196y/lib/arm64-v8a/libnet.devloops.AgoraRTC.so"
+install -p /Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/build/intermediates/cxx/Release/6r5u196y/obj/local/arm64-v8a/libnet.devloops.AgoraRTC.so /Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/build/intermediates/cxx/Release/6r5u196y/lib/arm64-v8a/libnet.devloops.AgoraRTC.so
+/Applications/adt-bundle-mac/sdk/ndk/28.1.13356709/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-strip --strip-unneeded  /Users/AbdullahFaqeir/dev/TiDev/AgoraRTC/android/build/module/build/intermediates/cxx/Release/6r5u196y/lib/arm64-v8a/libnet.devloops.AgoraRTC.so
