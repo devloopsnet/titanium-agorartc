@@ -7,6 +7,15 @@ Bridges the **Agora full RTC SDK** (audio + video) to Titanium for iOS and Andro
 
 > 4.6.2 is the latest version Agora ships on **both** Maven (Android) and the iOS SwiftPM repo
 > (iOS has no stable 4.6.3 — only a prerelease). Keep both platforms on the same stable version.
+>
+> The iOS product is marked `"linkage": "host"` in `spm.json` **on purpose**: that tells Titanium's
+> app build to add the Agora package to the *app* project and embed `AgoraRtcKit` into the app
+> bundle. Without it (default `"embedded"`), the module compiles but the framework never reaches the
+> app's `Frameworks/` and the app crashes at launch with a missing-library error.
+>
+> The module's own xcodeproj also needs the package to compile — that's a one-time injection done by
+> `ios/inject-spm.mjs` (Titanium only embeds `spm.json` into module metadata for *consumers*; it does
+> not add it to the module project itself). Re-run that script if the module xcodeproj is regenerated.
 
 Module id: `net.devloops.AgoraRTC`
 

@@ -4,7 +4,7 @@
 			"repositoryURL": "https://github.com/AgoraIO/AgoraRtcEngine_iOS",
 			"requirement": { "kind": "upToNextMinorVersion", "minimumVersion": "4.6.2" },
 			"products": [
-				{ "productName": "RtcBasic", "frameworkName": "AgoraRtcKit" }
+				{ "productName": "RtcBasic", "frameworkName": "AgoraRtcKit", "linkage": "host" }
 			]
 		}
 	]
